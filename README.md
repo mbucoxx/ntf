@@ -1,11 +1,13 @@
-An Erlang based taskbar notification based on wxWidget. Tested on Windows Vista.
+An Erlang based taskbar notification based on wxWidgets. Tested on Windows Vista.
 
-== Compile ==
+Compile
+-------
 ```
 rebar compile
 ```
 
-== Run ==
+Run
+---
 ```
 erl -smp -pa ebin -s ntf main any
 ````
